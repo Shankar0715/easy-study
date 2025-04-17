@@ -48,7 +48,7 @@ function Hero() {
             icon={<BookOpen className="w-10 h-10 text-[#274DF0]" />}
             title="Educator Dashboard"
             desc="Design custom learning paths using Gen AI for your students."
-            href="/dashboard"
+            href="https://ai-educator-course-gen.vercel.app/dashboard"
           />
           <FeatureCard
             icon={<User className="w-10 h-10 text-[#274DF0]" />}
