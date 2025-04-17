@@ -61,8 +61,8 @@ function Quiz() {
 
         {isCorrectAns==false&& <div>
             <div className='border p-3 border-red-700 bg-red-200 rounded-lg'>
-                <h2 className='font-bold text-lg text-red-600'>Incorrect</h2>
-                <p className='text-red-600'>Correct Answer is : {correctAns}</p>
+                <h2 className='font-semibold text-lg text-red-600'>Incorrect</h2>
+                {/* <p className='text-red-600'>Correct Answer is : {correctAns}</p> */}
             </div>
         </div>}
        

@@ -15,11 +15,7 @@ function SideBar() {
             icon:LayoutDashboard,
             path:'/dashboard'
         },
-        {
-            name:'Upgrade',
-            icon:Shield,
-            path:'/dashboard/upgrade'
-        },
+        
         {
             name:'Profile',
             icon:UserCircle,
@@ -33,8 +29,8 @@ function SideBar() {
   return (
     <div className='h-screen shadow-md p-5'>
             <div className='flex gap-2 items-center'>
-                <Image src={'/logo.svg'} alt='logo' width={40} height={40}/>
-                <h2 className="font-bold text-2xl">Easy Study</h2>
+                <Image src={'/next.png'} alt='logo' width={170} height={40}/>
+                
             </div>
 
             <div className='mt-10'>
