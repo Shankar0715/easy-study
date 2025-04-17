@@ -29,14 +29,8 @@ function StudyMaterialSection({courseId,course}) {
             icon:'/quiz.png',
             path:'/quiz',
             type:'quiz'
-        },
-        {
-            name:'Question/Answer',
-            desc:'Help to pratice your learning',
-            icon:'/qa.png',
-            path:'/qa',
-            type:'qa'
         }
+        
     ]
 
     useEffect(()=>{

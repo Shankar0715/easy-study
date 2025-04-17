@@ -14,9 +14,9 @@ function DashboardHeader() {
         <Link href={'/dashboard'}>
            <div className='flex gap-2 items-center'>
             
-             <Image src={'/logo.svg'} alt='logo' width={30} height={30}/>
+             <Image src={'/next.png'} alt='logo' width={170} height={50}/>
             
-                <h2 className="font-bold text-xl">Easy Study</h2>
+                <h2 className="font-bold text-xl"></h2>
           </div>
           </Link>  }
 
