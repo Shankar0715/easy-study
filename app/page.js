@@ -54,7 +54,7 @@ function Hero() {
             icon={<User className="w-10 h-10 text-[#274DF0]" />}
             title="Student Dashboard"
             desc="Access personalized courses and Study materials"
-            href="https://easy-study-inky.vercel.app/dashboard"
+            href="/dashboard"
           />
           <FeatureCard
             icon={<Briefcase className="w-10 h-10 text-[#274DF0]" />}
